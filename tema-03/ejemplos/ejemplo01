@@ -1,0 +1,22 @@
+<?php
+
+$nota = 7;
+
+echo $nota;
+if ($nota >= 5) {
+    echo "Aprobado";
+} elseif ($nota >= 1 && $nota < 4) {
+    echo "Suspenso";
+} elseif  ($nota >= 6) {
+    echo "Bien";
+} elseif ($nota >= 8) {
+    echo "Notable";
+} elseif ($nota >= 9) {
+    echo "Sobresaliente";
+} elseif ($nota >= 10) {
+    echo "Matrícula de honor";
+} else {
+    echo "Nota no válida";
+}
+
+?>

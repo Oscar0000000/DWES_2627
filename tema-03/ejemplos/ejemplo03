@@ -1,0 +1,9 @@
+<?php
+//Operadpr de fusion ?
+
+$resultado = $a ?? 'No decladrado';
+
+echo $resultado;
+
+
+?>
